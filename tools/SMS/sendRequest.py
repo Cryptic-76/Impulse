@@ -29,9 +29,9 @@ def transformPhone(phone, i):
         return (
             "+"
             + phone[0]
-            + " ("
+            + " "
             + phone[1:4]
-            + ") "
+            + " "
             + phone[4:7]
             + " "
             + phone[7:9]

@@ -28,15 +28,15 @@ def transformPhone(phone, i):
     if i == 5:
         return (
             "+"
-            + phone[0]
+            + phone[0:1]
             + " "
-            + phone[1:4]
+            + phone[1:5]
             + " "
-            + phone[4:7]
+            + phone[5:9]
             + " "
-            + phone[7:9]
+            + phone[9:12]
             + " "
-            + phone[9:16]
+            + phone[12:16]
         )  # '+7 (915) 350 99 08'
 
 

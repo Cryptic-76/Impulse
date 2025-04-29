@@ -36,7 +36,7 @@ def transformPhone(phone, i):
             + " "
             + phone[7:9]
             + " "
-            + phone[9:11]
+            + phone[9:16]
         )  # '+7 (915) 350 99 08'
 
 
